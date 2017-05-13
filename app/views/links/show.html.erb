@@ -26,3 +26,14 @@
 		<%= @link.get_downvotes.size %>
 	<% end %>
 </div>
+
+<h3 class="comments_title">
+	<%= @link.comments.count %> comments
+</h3>
+
+<div id="comments">
+	<%= render :partial => @link.comments %>
+	<h3>Add a comment:</h3>
+	<%= render "comments/form" %>
+</div>
+

@@ -18,6 +18,13 @@ GIT
       warden (~> 1.2.3)
 
 GIT
+  remote: https://github.com/ryanto/acts_as_votable.git
+  revision: 9ded371ec0720d07fa7a169109da05c835a2cb51
+  branch: master
+  specs:
+    acts_as_votable (0.10.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-sass.git
   revision: 5d6b2ebba0c2a5885ce2f0e01e9218db3d3b5e47
   branch: master
@@ -197,6 +204,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  acts_as_votable!
   bcrypt!
   bootstrap-sass!
   byebug

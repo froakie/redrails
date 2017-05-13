@@ -50,3 +50,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', :github => 'plataformatec/devise', :branch => 'master'
 gem 'bootstrap-sass', :github => 'twbs/bootstrap-sass', :branch => 'master'
+gem 'acts_as_votable', :github => 'ryanto/acts_as_votable', :branch => 'master'
